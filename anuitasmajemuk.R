@@ -1,7 +1,7 @@
-anuitasmajemuk <- function(num, k, j, t, m=TRUE){
-  v=(1/(1+j))
+anuitasmajemuk <- function(num, k, i, t, m=TRUE){
   n=t*m
   j=i/m
+  v=(1/(1+j))
   switch(num, 
          anuitasakhir = {
            an = k*(1-v^n)/j
